@@ -246,7 +246,6 @@ csv = summary.to_csv(index=True).encode("utf-8")
 st.download_button("⬇️ Descargar resumen mensual (CSV)", data=csv,
                    file_name="resumen_mensual_clipping.csv", mime="text/csv")
 
-st.caption("Sugerencia: graba un vídeo corto moviendo el slider DC/AC y súbelo a LinkedIn junto al enlace de tu app.")
 
 # --- Footer fijo abajo ---
 st.markdown("""
@@ -265,6 +264,7 @@ st.markdown("""
 </style>
 <div class="footer">Made by Jordan</div>
 """, unsafe_allow_html=True)
+
 
 
 
