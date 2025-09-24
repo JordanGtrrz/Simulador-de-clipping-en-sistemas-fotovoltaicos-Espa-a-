@@ -7,8 +7,8 @@ import streamlit as st
 st.set_page_config(page_title="Clipping FV – Comunidad de Madrid (PVGIS)",
                    page_icon="🔆", layout="wide")
 
-st.title("🔆 ¿Cuánto pierdo por *clipping*? — Fotovoltaica + Inversor")
-st.caption("Serie horaria desde PVGIS · Modelo FV sencillo · Simulación de clipping por ratio DC/AC")
+st.title("🔆 ¿Cuánto pierdo por *clipping*?  Fotovoltaica + Inversor")
+st.caption("Serie horaria desde PVGIS | Modelo FV sencillo | Simulación de clipping por ratio DC/AC")
 
 # ========================== Sidebar ==========================
 with st.sidebar:
@@ -247,5 +247,6 @@ st.download_button("⬇️ Descargar resumen mensual (CSV)", data=csv,
                    file_name="resumen_mensual_clipping.csv", mime="text/csv")
 
 st.caption("Sugerencia: graba un vídeo corto moviendo el slider DC/AC y súbelo a LinkedIn junto al enlace de tu app.")
+
 
 
