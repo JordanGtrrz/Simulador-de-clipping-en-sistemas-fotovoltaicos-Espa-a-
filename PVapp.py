@@ -90,7 +90,7 @@ def fetch_pvgis_series(lat: float, lon: float, year: int, tilt: float, az: float
         "https://re.jrc.ec.europa.eu/api/seriescalc"
         f"?lat={lat:.5f}&lon={lon:.5f}"
         f"&startyear={year}&endyear={year}"
-        "&radDatabase=PVGIS-SARAH"        # 👈 corrección (D mayúscula)
+        "&radDatabase=PVGIS-SARAH"        # 
         "&outputformat=json"
         f"&angle={tilt:.1f}&aspect={az:.1f}"
         "&pvcalculation=0"
@@ -247,6 +247,7 @@ st.download_button("⬇️ Descargar resumen mensual (CSV)", data=csv,
                    file_name="resumen_mensual_clipping.csv", mime="text/csv")
 
 st.caption("Sugerencia: graba un vídeo corto moviendo el slider DC/AC y súbelo a LinkedIn junto al enlace de tu app.")
+
 
 
 
