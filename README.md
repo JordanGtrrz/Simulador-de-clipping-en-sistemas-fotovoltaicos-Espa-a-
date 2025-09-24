@@ -14,10 +14,3 @@ Características principales
   - Resumen mensual descargable en CSV.
 - Enfoque **educativo y divulgativo**: muestra cómo influye el sobredimensionamiento del campo FV frente a la potencia nominal del inversor.
 
----
-Instalación en local
-Clona el repositorio y entra en la carpeta del proyecto:
-
-
-git clone https://github.com/TU_USUARIO/solar-clipping.git
-cd solar-clipping
