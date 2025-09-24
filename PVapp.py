@@ -248,6 +248,24 @@ st.download_button("⬇️ Descargar resumen mensual (CSV)", data=csv,
 
 st.caption("Sugerencia: graba un vídeo corto moviendo el slider DC/AC y súbelo a LinkedIn junto al enlace de tu app.")
 
+# --- Footer fijo abajo ---
+st.markdown("""
+<style>
+.footer {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 13px;
+  color: #666;
+  background: rgba(255,255,255,0.75);
+  border-top: 1px solid #eee;
+}
+</style>
+<div class="footer">Made by Jordan</div>
+""", unsafe_allow_html=True)
+
 
 
 
