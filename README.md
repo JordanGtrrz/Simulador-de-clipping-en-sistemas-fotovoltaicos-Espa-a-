@@ -1,7 +1,7 @@
 # Simulador-de-clipping-en-sistemas-fotovoltaicos-Espa-a-
 Aplicación interactiva en Streamlit para simular la producción de energía de sistemas fotovoltaicos en cualquier provincia de España, usando datos horarios de irradiancia y temperatura obtenidos en tiempo real desde PVGIS (European Commission).
 
-👉 [Abrir la app en Streamlit Cloud]([https://tuusuario-solar-clipping.streamlit.app](https://clipping-pv-esp.streamlit.app/)) 
+[Abrir la app en Streamlit Cloud]([https://tuusuario-solar-clipping.streamlit.app](https://clipping-pv-esp.streamlit.app/)) 
 
 Características principales
 - Selección de **provincia española** o **coordenadas personalizadas**.
